@@ -56,10 +56,6 @@ minecraft {
     // Exclude some Maven dependency groups from being automatically included in the reobfuscated runs
     //groupsToExcludeFromAutoReobfMapping.addAll("com.diffplug", "com.diffplug.durian", "net.industrial-craft")
 }
-//insert modversion into XNet.java
-tasks.injectTags.configure {
-    outputClassName.set("mcjty.xnet.Tags")
-}
 
 // Put the version from gradle into mcmod.info
 tasks.processResources.configure {
