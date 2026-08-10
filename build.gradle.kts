@@ -188,7 +188,7 @@ dependencies {
 
     // Jei Versions
     //implementation("curse.maven:jei-238222:5846804")
-    //implementation("curse.maven:had-enough-items-557549:4810661") // 4.34.0
+    //implementation("curse.maven:had-enough-items-557549:4810661") // 4.25.1
     implementation("curse.maven:had-enough-items-557549:8081514") // 4.31.2
 
     compileOnly(rfg.deobf("curse.maven:mouse-tweaks-unofficial-461660:5876158"))
