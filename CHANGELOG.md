@@ -1,3 +1,6 @@
+1.8.24
+- Fixed disabled connector sides remaining active
+
 1.8.23
 - Added JEI fluid drag support for XNet fluid filters
 - Added per-filter Count to item extracting
