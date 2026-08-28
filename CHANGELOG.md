@@ -1,3 +1,6 @@
+1.8.24
+- Fixed break particles using the default cable color instead of the cable/connector’s actual color.
+
 1.8.23
 - Added JEI fluid drag support for XNet fluid filters
 - Added per-filter Count to item extracting
