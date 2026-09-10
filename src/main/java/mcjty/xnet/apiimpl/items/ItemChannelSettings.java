@@ -375,6 +375,7 @@ public class ItemChannelSettings extends DefaultChannelSettings implements IChan
                 break;
         }
         int itemsInserted = originalCount - stack.getCount();
+        if (itemsInserted <= 0) return false; // fast exit
         int realExtracted = from.extractItem(extractIdx, itemsInserted, false).getCount();
         if (realExtracted < itemsInserted)
             XNet.setup.getLogger().warn("Network '{}' duped '{}', inserted: '{}', extracted: '{}'",
