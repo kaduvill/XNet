@@ -177,8 +177,11 @@ public class ItemChannelSettings extends DefaultChannelSettings implements IChan
                     if (handler != null) {
                         int idx = getStartExtractIndex(settings, consumerId, handler);
                         idx = tickItemHandler(context, settings, handler, idx);
-                        if (handler.getSlots() > 0) {
-                            rememberExtractIndex(consumerId, (idx + 1) % handler.getSlots());
+                        if (settings.getExtractMode() == ItemConnectorSettings.ExtractMode.ORDER) {
+                            int slots = handler.getSlots();
+                            if (slots > 0) {
+                                rememberExtractIndex(consumerId, (idx + 1) % slots);
+                            }
                         }
                     }
                 }
