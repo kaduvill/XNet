@@ -1,3 +1,7 @@
+1.8.24
+- Improved filter count readability against slot borders.
+- Always show values of fields in tooltips (GUI)
+
 1.8.23
 - Added JEI fluid drag support for XNet fluid filters
 - Added per-filter Count to item extracting
