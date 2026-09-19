@@ -1,3 +1,6 @@
+1.8.24
+- Fix Wireless Router published channels expiring prematurely when multiple dimensions are loaded
+
 1.8.23
 - Added JEI fluid drag support for XNet fluid filters
 - Added per-filter Count to item extracting
