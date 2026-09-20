@@ -1,3 +1,6 @@
+1.8.24
+- Fixed JEI item/fluid recipe transfer resetting some connectorsettings
+
 1.8.23
 - Added JEI fluid drag support for XNet fluid filters
 - Added per-filter Count to item extracting
