@@ -1,4 +1,7 @@
-1.8.23
+1.8.24
+- Strengthen against a rare, old bug where bad crashes during channel ticks could cause controllers to lose their configuration.
+
+- 1.8.23
 - Added JEI fluid drag support for XNet fluid filters
 - Added per-filter Count to item extracting
 - Fix stale item/fluid filter matcher after Shift-click
